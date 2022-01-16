@@ -1,7 +1,7 @@
 from telegram import Update
 
 from BaseBot.Models.User import User
-from BaseBot.Utils.SqlalchemySession import start_session_object
+from BaseBot.Database.SqlalchemySession import start_session_object
 
 
 def get_user_from_request(update: Update):
